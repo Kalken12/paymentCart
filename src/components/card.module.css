@@ -1,0 +1,48 @@
+/* .maincontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: auto;
+    
+
+   
+
+} */
+
+
+
+.container{
+    width: 50%;
+    height: 220px;
+   /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+   margin: auto;
+   margin-bottom: 30px;
+   padding: 20px;
+    
+}
+.leftContent{
+    width: 200px;
+    height: auto;
+    /* border: 1px solid green; */
+   text-align: center;
+   display: block;
+}
+.leftContent>h1{
+    margin: 0px;
+}
+
+.rightContent>div>img{
+    margin-bottom: 100px;
+   
+}
+.rightContent>div>svg{
+  margin-left:  100px ;
+}
+
+
+
+.logoImg{
+    width: 100px;
+    height: 50px;
+}
